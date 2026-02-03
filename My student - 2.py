@@ -1,0 +1,16 @@
+class student:
+    grade = 10
+    name = "penguin"
+    
+    def introduction(self):
+      print("Hi I am a student")
+    
+    def detalis(self):
+      print("My name is ",self.name)
+      print("I study in grade",self.grade)
+
+ob = student()
+ob.introduction()
+ob.detalis()    
+
+    
